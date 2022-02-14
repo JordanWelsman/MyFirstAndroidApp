@@ -15,10 +15,13 @@
         android:ems="10"
         android:hint="@string/edit_message"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#78909C"
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button"
